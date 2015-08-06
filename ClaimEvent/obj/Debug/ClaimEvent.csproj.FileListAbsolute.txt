@@ -1,0 +1,7 @@
+C:\ClaimEvents\ClaimEvent\bin\ClaimEvent.dll.config
+C:\ClaimEvents\ClaimEvent\bin\ClaimEvent.dll
+C:\ClaimEvents\ClaimEvent\bin\ClaimEvent.pdb
+C:\ClaimEvents\ClaimEvent\bin\Newtonsoft.Json.dll
+C:\ClaimEvents\ClaimEvent\obj\Debug\ClaimEvent.csprojResolveAssemblyReference.cache
+C:\ClaimEvents\ClaimEvent\obj\Debug\ClaimEvent.dll
+C:\ClaimEvents\ClaimEvent\obj\Debug\ClaimEvent.pdb

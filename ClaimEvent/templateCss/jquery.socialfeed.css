@@ -1,0 +1,216 @@
+/* Plugin styles */
+
+/*Prompt styling*/
+
+#socialcallout{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    /*border: solid 5px pink;*/
+}
+/*MESSIN' WITH ARROWS*/
+
+/*.arrow-down {*/
+/*	width: 0; */
+/*	height: 0; */
+/*	border-left: 20px solid transparent;*/
+/*	border-right: 20px solid transparent;*/
+/*	border-top: 20px solid pink;*/
+/*}*/
+
+/*#socialcallout:after{*/
+/*	content: "";*/
+/*    position: absolute;*/
+/*    width: 0; */
+/*	height: 0; */
+/*	top: 17.5%;*/
+/*	left: 500px;*/
+/*	border-left: 20px solid transparent;*/
+/*	border-right:10px solid transparent;*/
+/*	border-top: 25px solid pink;*/
+/*}*/
+
+/*Big Div + Column set-up*/
+
+.social-feed-container{
+    -webkit-columns: 2 300px;
+    -moz-columns: 2 300px;
+    columns: 2 300px; 
+    -moz-column-fill: auto;
+    column-fill: auto;
+    height: auto
+}
+
+/*Content Set Up*/
+.social-feed-element .pull-left{
+    float:left;
+    margin-right: 10px;
+}
+.social-feed-element .pull-right {
+    margin-left: 10px;
+}
+.social-feed-element img {
+    max-width: 100%;
+    /*width: auto\9;*/
+    height: auto;
+    border: 0;  
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+.social-feed-element .attachment {
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* Baseline Link styles */
+.social-feed-element a {
+    color: #ef8058;
+    text-decoration: none;
+}
+.social-feed-element a:focus {
+    outline: thin dotted #333;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.social-feed-element a:hover,
+.social-feed-element a:active {
+    outline: 0;
+    color: #005580;
+    text-decoration: underline;
+}
+
+/* Text styles */
+.social-feed-element small {
+    font-size: 85%;
+}
+.social-feed-element strong {
+    font-weight: bold;
+}
+.social-feed-element em {
+    font-style: italic;
+}
+.social-feed-element p {
+    font-family: 'Lato', helvetica, sans-serif;
+    margin: 0 0 10px;
+}
+.social-feed-element .media-body > p{
+    font-weight: bold;
+    margin-bottom:4px;
+    min-height:20px;
+}
+.social-feed-element .social-feed-text {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+/* Message styles */
+.social-feed-element,
+.social-feed-element .media-body {
+    overflow: hidden;
+}
+
+/*.social-feed-element .media-body .social-network-icon{*/
+/*    margin-top: -3px;*/
+/*    margin-right:5px;*/
+/*    width:16px;*/
+/*}*/
+
+.social-feed-element .media-body div{
+    color:#666;
+    line-height: 20px;
+}
+.social-feed-element:first-child {
+    margin-top: 3em;
+}
+.social-feed-element .media-object {
+    display: none; 
+    width:48px;
+    border-radius:50%;
+}
+.social-feed-element .media-heading {
+    margin: 0 0 5px;
+}
+.social-feed-element .media-list {
+    margin-left: 0;
+    list-style: none;
+}
+
+.social-feed-element .muted {
+    color: #999;
+}
+.social-feed-element a.muted:hover,
+.social-feed-element a.muted:focus {
+    color: #808080;
+}
+
+.social-feed-element{
+    transition: 0.25s;
+    -webkit-backface-visibility: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom:20px;
+    width:96%; 
+    /*margin-top:.2em;*/
+    /*padding-bottom: .7em;*/
+    background-color: #eff2f0;
+    color: #333;
+    text-align:left;
+    font-size: 14px;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    line-height: 16px;
+    border-radius: 15px;
+}
+
+/*.social-feed-element:before{*/
+/*	content: "";*/
+/*    position: absolute;*/
+/*    top: 100%;*/
+/*    left: 20px;*/
+/*    border-top: 20px solid black;*/
+/*    border-top-color: inherit; */
+/*    border-left: 20px solid transparent;*/
+/*    border-right: 20px solid transparent;*/
+/*}*/
+
+/*Green Social Feed Boxes*/
+.social-feed-element:nth-child(3n + 1) {
+    background-color: #8cc64d;
+}
+
+/*Red-orange Social Feed Boxes*/
+.social-feed-element:nth-child(3n + 0) {
+    background-color: #ef8058;
+}
+
+/*Green and Red Text mods*/
+.social-feed-element:nth-child(3n + 0) p,
+.social-feed-element:nth-child(3n + 0) a,
+.social-feed-element:nth-child(3n + 1) p,
+.social-feed-element:nth-child(3n + 1) a{
+    color: #fff;
+}
+
+.social-feed-element:hover{
+    box-shadow: 0 0 40px 0 rgba(10, 10, 10, 0.2);
+}
+
+.social-feed-element .content{
+    padding:15px;
+}
+.social-feed-element .social-network-icon{
+    opacity:0.2; 
+}
+
+
+.social-feed-element .author-title{
+    opacity: .7;
+    color: #444;
+    font-weight: 500;  
+}

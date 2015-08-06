@@ -1,0 +1,250 @@
+﻿<!DOCTYPE HTML>
+<!--
+Alpha by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+<title>Claim Academy | Events at Claim Academy</title>
+<!--Meta/SEO Stuff-->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!--<meta http-equiv="refresh" content="0; URL='http://claimacademystl.com/events' " />-->
+<meta name="description" content="All events held at Claim Academy's downtown St. Louis location. Join us!" />
+<meta name="keywords" content="tech jobs, programming, Java, .NET, coding, St.Louis, learn to code, code, computer programming, developers, dev bootcamps, jobs" />
+
+<!--Links to fonts and stylesheets-->
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+
+<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.dropotron.min.js"></script>
+<script src="js/jquery.scrollgress.min.js"></script>
+<script src="js/skel.min.js"></script>
+<script src="js/skel-layers.min.js"></script>
+<script src="js/init.js"></script>
+<noscript>
+
+    <link href="templateCss/skel.css" rel="stylesheet" />
+    <link rel="styesheet" src="templateCss/style.css"/>
+    <link rel="styesheet" src="templateCss/style-wide.css" />
+
+</noscript>
+<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+
+<!--timeline-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+
+<!-- Links for form-->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+
+
+
+
+
+</head>
+<body class="landing">
+
+
+
+
+<!-- Header -->
+<header id="header" class="alt">
+<h1 id="sneakyheader"><a href="index.html"></a>Programming and Developer Bootcamp for St. Louis</h1>
+<nav id="nav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="http://claimacademystl.com/blog">Blog</a></li>
+<li><a href="http://claimacademystl.com/blog/2015/04/21/faq/">FAQ</a></li>
+<li><a href="http://claimacademystl.com/html/signup.html" class="button">Begin your application</a></li>
+<li><a href="https://calendly.com/kristena/tour-claim-academy" class="button">Sign up for a tour</a></li>
+</ul>
+</nav>
+</header>
+
+
+
+
+<!-- Banner -->
+<section id="banner">
+<div id="headsplash">
+<p style="font-size:6vw">Claim Academy Events</p>
+<hr>
+<p style="font-size:4vw;">See what's going on around 515 Olive St.</p>
+</div>
+</section>
+
+
+
+
+
+<!-- Main -->
+<section id="main" class="container">
+<a name="jump1"></a>
+<section id="mainDiv" class="box features">
+
+<!-- Pop up window for create new event-->
+<input type="button" value="Create New Event" id="formInput"/>
+
+<form id="formStructure" style="display: none;" method="post">
+<input type="text" id="EventName" placeholder="Enter Event Name"/><br/>
+Starting Date<input type="date" id="BeginningDate" value="Start Date"></input><br/>
+    Ending Date<input type="date" id="EndingDate" value="End Date"></input><br/>
+<input type="textarea" id="Description" Placeholder="Descrption"/><br/>
+<br/>
+
+
+<input type="submit" value="Submit" id="SubmitForm"/>  <input type="reset" value="Reset" id="resetForm"/>
+
+
+</form>
+<script>
+$( '#formInput' ).click(function() {
+  $( '#formStructure' ).toggle("slow");
+});
+</script>
+
+<script type="text/javascript">
+var name = document.getElementById('#EventName').value();
+var startDate = document.getElementById('#BeginningDate').value();
+var endDate = document.getElementById('#EndingDate').value();
+var info = document.getElementById('#Description').value();
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+	
+<header class="major">
+    <div id="timeline">
+		<section id="cd-timeline" class="cd-container">
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-picture">
+				<img src="img/cd-icon-location.svg" alt="Picture">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p>
+				<input type="button" value="Read More" class="cd-read-more" href="#0">
+				<span class="cd-date">Jan 14</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		<div class="cd-timeline-block">
+			<div class="cd-timeline-img cd-movie">
+				<img src="img/cd-icon-location.svg" alt="Movie">
+			</div> <!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2>Title of section 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p>
+				<input type="button" value="Read More" class="cd-read-more" href="#0">
+				<span class="cd-date">Jan 18</span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+		
+	</section> <!-- cd-timeline -->
+	
+	</div>
+		
+		
+</header>
+
+</section>
+
+
+    </section>
+
+
+
+
+<script>
+$(function() {
+ $('a[href*=#]:not([href=#])').click(function() {
+   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+     var target = $(this.hash);
+     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+     if (target.length) {
+       $('html,body').animate({
+         scrollTop: target.offset().top
+       }, 1000);
+       return false;
+     }
+   }
+ });
+});
+</script>
+<!--Google Analytics-->
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-57286580-1', 'auto');
+ ga('send', 'pageview');
+</script>
+
+<script>
+$(window).on('scroll', function(){
+	$timeline_block.each(function(){
+		if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+		}
+	});
+});
+</script>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

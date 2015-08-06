@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(255,255,255);
+}
+
+.toptext{
+    width: 100%;
+    height: 17vw;
+}
+
+h2 { 
+    margin: auto;
+    width:90vw; 
+    text-align: center; 
+    font-family: 'Lato', sans-serif;
+    font-size:5vw;
+    font-weight: 300;
+    letter-spacing: .15em;
+    color: rgba(140,190,77, 0.8);
+}
+
+img{
+    display: block; 
+    margin: auto;
+} 
+
+h3 {
+    margin: auto;
+    width:30vw;
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: .15em;
+    color: rgba(140,190,77, 0.8);
+}
+
+h4 {
+    margin: auto;
+    width: 30vw;
+    text-align: center;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 1.5em;
+    color: rgba(118,175,77, 0.9); 
+}
